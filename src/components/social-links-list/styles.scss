@@ -1,0 +1,11 @@
+@import "../../styles/variables";
+@import "../../styles/mixins";
+
+.social-links-list {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 0px;
+  min-height: 50px;
+  border-radius: 0.5rem;
+  @include neo-inline;
+}

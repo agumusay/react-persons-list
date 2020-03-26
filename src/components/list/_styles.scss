@@ -1,0 +1,8 @@
+@import "../../styles/variables";
+@import "../../styles//mixins";
+
+ul {
+  width: 80%;
+  @include neo-inline;
+  padding: 20px;
+}
